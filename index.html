@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Happy Birthday My Moon 💕</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Floating Background Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="typewriter" id="typewriter">Happy Birthday, Maa Teju💕</h1>
+            <p class="subtitle fade-in">Today is all about celebrating you and the joy you bring to my life</p>
+            <div class="floating-hearts">
+                <div class="heart">🤍</div>
+                <div class="heart">💙</div>
+                <div class="heart">💛</div>
+                <div class="heart">🧡</div>
+                <div class="heart">❤️</div>
+            </div>
+            <button class="cta-button" onclick="scrollToSection('gallery')">
+                Let's make memories ❤️
+            </button>
+        </div>
+
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section" id="gallery">
+          <div class="container">
+            <h2 class="section-title">Our Beautiful Memories</h2>
+            <div class="gallery-grid">
+                <div class="photo-card" data-aos="fade-up" data-delay="100">
+                    <div class="photo-container">
+                        <img src="c:\Users\Dell\Pictures\Saved Pictures\Picsart_26-01-30_21-00-47-071.jpg"
+                            alt="Beautiful moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption1">"Beautiful moment"</div>
+                            <div class="photo-caption">You make every moment beautiful</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">❤️</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="200">
+                    <div class="photo-container">
+                        <img src="c:\Users\Dell\Pictures\Saved Pictures\Picsart_26-01-30_20-35-44-019.jpg"
+                            alt="Sweet memory">
+                        <div class="photo-overlay">
+                            <div class="photo-caption1">"Sweet memory"</div>
+                            <div class="photo-caption">With you, everything feels right</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🧡</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="300">
+                    <div class="photo-container">
+                         <img src="c:\Users\Dell\Pictures\Saved Pictures\file_0000000013b072068ac5380b92524d58.png"
+                            alt="Happy times">
+                        <div class="photo-overlay">
+                            <div class="photo-caption1">"Happy times"</div>
+                            <div class="photo-caption">You’re the reason my days smile</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">💛</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="400">
+                    <div class="photo-container">
+                        <img src="c:\Users\Dell\Pictures\Saved Pictures\Picsart_26-01-30_20-40-51-841.jpg"
+                            alt="Love moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption1">"Love Moment"</div>
+                            <div class="photo-caption">Stolen heart,forever yours</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">💙</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="500">
+                    <div class="photo-container">
+                        <img src="c:\Users\Dell\Desktop\B-D\Picsart_26-01-30_20-42-30-278.jpg"
+                            alt="Beautiful day">
+                        <div class="photo-overlay">
+                            <div class="photo-caption1">"Beautiful day"</div>
+                            <div class="photo-caption">Life is better because you’re in it</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🖤</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="600">
+                    <div class="photo-container">
+                        <img src="c:\Users\Dell\Pictures\Saved Pictures\Picsart_26-01-30_20-33-42-139.jpg"
+                            alt="Romantic moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption1">"Romantic moment"</div>
+                            <div class="photo-caption">you're my strees buster, you’re my peace</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Message Section -->
+    <section class="message-section" id="message">
+        <div class="container">
+            <div class="message-card">
+                <h2 class="message-title">A Special Message for You</h2>
+                <div class="message-content">
+                    <p class="message-text fade-in-text">
+                        Happy Birthday to the most beautiful soul in my life.
+You make my world brighter just by being in it.
+Every smile of yours feels like a gift meant just for me.
+Thank you for caring me, supporting me, and understanding me.
+
+                    </p>
+                    <p class="message-text fade-in-text">
+                        With you, every moment becomes special and meaningful.
+I wish you endless happiness, success, and peace today and always.
+
+                    </p>
+                    <p class="message-signature fade-in-text">
+                        Happy Birthday, my Angry bird  ! you will always be something special in my heart 💕
+                    </p>
+                </div>
+                <div class="message-hearts">
+                    <span class="heart-animation">💖</span>
+                    <span class="heart-animation">💕</span>
+                    <span class="heart-animation">💗</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
