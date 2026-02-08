@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -11,6 +13,8 @@
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 </head>
+
+
 
 <body>
     <!-- Floating Background Particles -->
@@ -42,7 +46,8 @@
           <div class="container">
             <h2 class="section-title">Our Beautiful Memories</h2>
             <div class="gallery-grid">
-                <div class="photo-card" data-aos="fade-up" data-delay="100">
+                <div class="photo-card" data-aos="fade-up" data-aos-delay="100"></div>
+
                     <div class="photo-container">
                         <img src="./Picsart_26-01-30_21-00-47-071.jpg"
                                     alt="Beautiful moment">
@@ -56,7 +61,7 @@
                     </div>
                 </div>
 
-                <div class="photo-card" data-aos="fade-up" data-delay="200">
+                <div class="photo-card" data-aos="fade-up" data-aos-delay="100"></div>
                     <div class="photo-container">
                         <img src="./Picsart_26-01-30_20-35-44-019.jpg"
                             alt="Sweet memory">
@@ -70,7 +75,7 @@
                     </div>
                 </div>
 
-                <div class="photo-card" data-aos="fade-up" data-delay="300">
+                <div class="photo-card" data-aos="fade-up" data-aos-delay="100"></div>
                     <div class="photo-container">
                          <img src="./file_0000000013b072068ac5380b92524d58.png"
                             alt="Happy times">
@@ -84,7 +89,7 @@
                     </div>
                 </div>
 
-                <div class="photo-card" data-aos="fade-up" data-delay="400">
+                <div class="photo-card" data-aos="fade-up" data-aos-delay="100"></div>
                     <div class="photo-container">
                         <img src="./Picsart_26-01-30_20-40-51-841.jpg"
                             alt="Love moment">
@@ -98,7 +103,7 @@
                     </div>
                 </div>
 
-                <div class="photo-card" data-aos="fade-up" data-delay="500">
+                <div class="photo-card" data-aos="fade-up" data-aos-delay="100"></div>
                     <div class="photo-container">
                         <img src="./Picsart_26-01-30_20-42-30-278.jpg"
                             alt="Beautiful day">
@@ -112,7 +117,7 @@
                     </div>
                 </div>
 
-                <div class="photo-card" data-aos="fade-up" data-delay="600">
+                <div class="photo-card" data-aos="fade-up" data-aos-delay="100"></div>
                     <div class="photo-container">
                         <img src="./Picsart_26-01-30_20-33-42-139.jpg"
                             alt="Romantic moment">
@@ -161,6 +166,16 @@ I wish you endless happiness, success, and peace today and always.
     </section>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    easing: "ease-in-out",
+    once: true,
+    offset: 120
+  });
+</script>
+
 </body>
 
 </html>
