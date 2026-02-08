@@ -518,6 +518,13 @@ body {
         transform: scale(1.05);
     }
 }
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
 
 @media (max-width: 480px) {
     .hero-content {
