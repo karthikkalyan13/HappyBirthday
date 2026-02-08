@@ -288,7 +288,8 @@ body {
     position: relative;
     overflow: hidden;
     border-radius: 20px;
-    height: 700px;
+    aspect-ratio: 3 / 4;
+    height: auto;
 }
 
 .photo-container img {
@@ -296,6 +297,8 @@ body {
     height: 700px;
     object-fit: cover;
     transition: transform 0.5s ease;
+    will-change: transform;
+    transform: translateZ(0);
 }
 
 .photo-container:hover img {
@@ -458,7 +461,10 @@ body {
 
 /* Fade In Animations */
 .fade-in {
-    opacity: 0;
+    opacity: 1;
+}
+
+.fade-in.animate {
     animation: fadeInUp 1s ease forwards;
 }
 
@@ -504,6 +510,10 @@ body {
 
     .heart {
         font-size: 1.5rem;
+    }
+    
+    .photo-container:hover img {
+        transform: scale(1.05);
     }
 }
 
